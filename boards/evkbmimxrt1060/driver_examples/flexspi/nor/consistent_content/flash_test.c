@@ -136,13 +136,10 @@ void flash_test(void)
         break;
     }
 
-    while (1)
-    {
-        __NOP();
-    }
-
+    /*
     for (uint16_t i = 0; i < 256; i++)
     {
         PRINTF("CRC: %d - %x\r\n", i, max_crc8_lookup);
     }
+    */
 }

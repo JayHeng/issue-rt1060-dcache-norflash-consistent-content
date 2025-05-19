@@ -361,7 +361,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state>$PROJ_DIR$/../mcux_config.h</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
@@ -700,7 +700,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>flexspi_nor_polling_transfer.bin</state>
+                    <state>flexspi_nor_consistent_content.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -1142,7 +1142,7 @@
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
                     <version>34</version>
-                    <state>39</state>
+                    <state>41</state>
                 </option>
                 <option>
                     <name>BrowseInfoPath</name>
@@ -1200,7 +1200,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>9.60.1.2936</state>
+                    <state>9.60.2.5384</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
@@ -1488,7 +1488,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state>$PROJ_DIR$/../mcux_config.h</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
@@ -2269,7 +2269,7 @@
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
                     <version>34</version>
-                    <state>38</state>
+                    <state>41</state>
                 </option>
                 <option>
                     <name>BrowseInfoPath</name>
@@ -2327,7 +2327,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>7.60.1.11206</state>
+                    <state>9.60.2.5384</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
@@ -2613,7 +2613,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state>$PROJ_DIR$/../mcux_config.h</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
@@ -3394,7 +3394,7 @@
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
                     <version>34</version>
-                    <state>38</state>
+                    <state>41</state>
                 </option>
                 <option>
                     <name>BrowseInfoPath</name>
@@ -3452,7 +3452,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>7.60.1.11206</state>
+                    <state>9.60.2.5384</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
@@ -3740,7 +3740,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state>$PROJ_DIR$/../mcux_config.h</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
@@ -4508,9 +4508,6 @@
     <group>
         <name>board</name>
         <file>
-            <name>$PROJ_DIR$\..\app.h</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\board.c</name>
         </file>
         <file>
@@ -4521,9 +4518,6 @@
         </file>
         <file>
             <name>$PROJ_DIR$\..\clock_config.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\hardware_init.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\pin_mux.c</name>
@@ -4770,18 +4764,6 @@
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\..\..\..\devices\MIMXRT1062\system_MIMXRT1062.h</name>
-        </file>
-    </group>
-    <group>
-        <name>doc</name>
-        <file>
-            <name>$PROJ_DIR$\..\example_board_readme.md</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\examples_shared_readme.md</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\readme.md</name>
         </file>
     </group>
     <group>

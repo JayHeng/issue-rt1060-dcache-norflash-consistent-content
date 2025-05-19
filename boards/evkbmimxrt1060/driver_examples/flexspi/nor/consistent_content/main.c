@@ -49,13 +49,11 @@ int main(void)
 
     flash_init();
 
-        flash_test();
+    flash_test();
 
-        while (1)
-        {
-        }
-
-        return 0;
+    while (1)
+    {
+    }
 }
 
 static void FlexRAM_Allocation(void)
