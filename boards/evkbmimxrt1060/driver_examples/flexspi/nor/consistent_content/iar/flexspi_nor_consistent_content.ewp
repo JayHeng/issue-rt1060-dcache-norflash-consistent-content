@@ -1827,7 +1827,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>flexspi_nor_consistent_content.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -2162,7 +2162,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>###Unitialized###</state>
+                    <state>flexspi_nor_consistent_content_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>

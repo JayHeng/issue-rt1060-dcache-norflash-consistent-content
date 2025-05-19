@@ -78,7 +78,7 @@ define block NCACHE_VAR    { section NonCacheable , section NonCacheable.init };
 initialize by copy {
   readwrite,
   /* Place in RAM flash and performance dependent functions */
-  object flexspi_nor_flash_ops.o,
+  object flash_ops.o,
   object fsl_flexspi.o,
   section .textrw
 };
